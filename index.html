@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f8e8ef">
+<title>aysha_unfiltered | Exclusive Access</title>
+<meta name="description" content="Explore exclusive creator membership options for aysha_unfiltered.">
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;padding:24px 14px;min-height:100vh;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  color:#30242b;
+  background:linear-gradient(145deg,#f5dce7,#fff8fb,#efd6e2);
+}
+.brand{
+  text-align:center;font-size:12px;letter-spacing:3px;
+  color:#986078;margin:8px 0 25px;
+}
+.card{
+  max-width:430px;margin:auto;background:#fff;
+  border-radius:26px;overflow:hidden;
+  box-shadow:0 16px 50px #89536a20;
+}
+.hero{text-align:center;padding:30px 22px 22px}
+.avatar{
+  width:124px;height:124px;border-radius:50%;
+  margin:0 auto 17px;display:block;
+  object-fit:cover;object-position:center 35%;
+  border:4px solid #f3dbe5;
+  box-shadow:0 8px 22px #b85e8325;
+}
+h1{font-size:27px;margin:0 0 9px;letter-spacing:-.7px}
+.subtitle{
+  font-size:14px;line-height:1.6;color:#887680;
+  margin:0 auto;max-width:290px;
+}
+.tag{
+  display:inline-block;margin-top:15px;padding:8px 12px;
+  border-radius:20px;background:#faeaf1;color:#a05274;
+  font-size:10px;font-weight:700;letter-spacing:1px;
+}
+.content{padding:0 21px 24px}
+h2{font-size:17px;margin:5px 0 15px}
+.plan{
+  display:flex;align-items:center;gap:10px;
+  padding:15px 12px;margin:10px 0;
+  border:1px solid #ead8e0;border-radius:15px;
+  cursor:pointer;background:#fff;
+}
+.plan.active{
+  border:2px solid #bd668b;background:#fff7fa;
+  padding:14px 11px;
+}
+.plan input{accent-color:#b85e83;width:17px;height:17px;flex-shrink:0}
+.details{flex:1}
+.name{font-size:13px;font-weight:750}
+.desc{font-size:11px;color:#8c7b84;margin-top:5px;line-height:1.4}
+.price{font-size:17px;font-weight:800;white-space:nowrap}
+.price small{font-size:10px;color:#8c7b84;font-weight:500}
+.popular{
+  font-size:9px;color:#a05274;background:#f5dfe9;
+  padding:4px 6px;border-radius:9px;white-space:nowrap;
+}
+button{
+  width:100%;border:0;border-radius:14px;padding:16px;
+  color:#fff;background:linear-gradient(100deg,#b85e83,#d07c9c);
+  font-size:15px;font-weight:750;margin-top:10px;cursor:pointer;
+  box-shadow:0 7px 18px #b85e8330;
+}
+.note{
+  text-align:center;color:#9a8991;font-size:11px;
+  line-height:1.6;margin:14px 5px 0;
+}
+#message{
+  display:none;margin-top:13px;padding:13px;
+  border-radius:12px;background:#faeaf1;color:#85415e;
+  font-size:13px;line-height:1.5;
+}
+footer{text-align:center;color:#a28d98;font-size:11px;padding:23px 5px}
+@media(max-width:360px){
+  .content{padding-left:14px;padding-right:14px}
+  .price{font-size:15px}
+  .price small{font-size:9px}
+  .name{font-size:12px}
+}
+</style>
+</head>
+
+<body>
+<div class="brand">A Y S H A · U N F I L T E R E D</div>
+
+<main class="card">
+  <section class="hero">
+    <img class="avatar" src="model.jpg" alt="aysha_unfiltered">
+    <h1>aysha_unfiltered</h1>
+    <p class="subtitle">
+      A little closer, a little more personal.
+      Choose the access that feels right for you.
+    </p>
+    <div class="tag">EXCLUSIVE CREATOR ACCESS</div>
+  </section>
+
+  <section class="content">
+    <h2>Choose your membership</h2>
+
+    <label class="plan active">
+      <input type="radio" name="plan" value="199" checked>
+      <span class="details">
+        <span class="name">Weekly Access</span>
+        <div class="desc">Full access for 7 days</div>
+      </span>
+      <span class="price">₹199 <small>/ 7 days</small></span>
+    </label>
+
+    <label class="plan">
+      <input type="radio" name="plan" value="499">
+      <span class="details">
+        <span class="name">Monthly Access <span class="popular">POPULAR</span></span>
+        <div class="desc">Full access for 30 days</div>
+      </span>
+      <span class="price">₹499 <small>/ 30 days</small></span>
+    </label>
+
+    <label class="plan">
+      <input type="radio" name="plan" value="999">
+      <span class="details">
+        <span class="name">Premium Access</span>
+        <div class="desc">Full access for 30 days</div>
+      </span>
+      <span class="price">₹999 <small>/ 30 days</small></span>
+    </label>
+
+    <label class="plan">
+      <input type="radio" name="plan" value="2699">
+      <span class="details">
+        <span class="name">Ultimate Access</span>
+        <div class="desc">Full access for 30 days</div>
+      </span>
+      <span class="price">₹2,699 <small>/ 30 days</small></span>
+    </label>
+
+    <button id="subscribe">Subscribe Now →</button>
+
+    <div id="message" role="status"></div>
+
+    <p class="note">
+      Preview website only. Payment is not collected and
+      membership is not activated on this page.
+    </p>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> aysha_unfiltered · All rights reserved</footer>
+
+<script>
+const plans = [...document.querySelectorAll('input[name="plan"]')];
+const cards = [...document.querySelectorAll('.plan')];
+
+plans.forEach(input => {
+  input.addEventListener('change', () => {
+    cards.forEach(card => {
+      card.classList.toggle(
+        'active',
+        card.querySelector('input').checked
+      );
+    });
+  });
+});
+
+document.getElementById('subscribe').addEventListener('click', () => {
+  const selected = plans.find(input => input.checked);
+  const duration = selected.value === '199' ? '7 days' : '30 days';
+  const message = document.getElementById('message');
+
+  message.style.display = 'block';
+  message.textContent =
+    'You selected ₹' +
+    Number(selected.value).toLocaleString('en-IN') +
+    ' for ' + duration +
+    '. This is a demo only; secure payment checkout must be connected before launch.';
+});
+
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
